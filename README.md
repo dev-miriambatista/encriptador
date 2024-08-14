@@ -11,8 +11,6 @@
 7. [Licença](#licença)
 8. [Autor](#autor)
 
-![Screenshot](screenshot.png)
-
 git clone https://github.com/dev-miriambatista/challenge-decodificador.git
 cd challenge-decodificador
 
