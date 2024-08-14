@@ -35,10 +35,6 @@ cd challenge-decodificador
 - CSS3
 - JavaScript
 
-## 📷 Screenshots
-
-![Screenshot](screenshot.png)
-
 ## 📚 Como Usar
 
 1. Clone o repositório:
@@ -48,7 +44,8 @@ cd challenge-decodificador
 
 Encriptador de Texto
 
-Este projeto é uma aplicação web simples para encriptar e desencriptar textos. A aplicação usa um mapeamento de caracteres personalizado para converter texto comum em uma forma encriptada e vice-versa. 
+Este projeto é uma aplicação web simples para encriptar e desencriptar textos. 
+A aplicação usa um mapeamento de caracteres personalizado para converter texto comum em uma forma encriptada e vice-versa. 
 Além disso, oferece funcionalidades como copiar e colar o texto encriptado.
 
 Funcionalidades
