@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <title>D3CoD!F!c@DoR</title>
+</head>
+
+<body>
+    <header>
+   <a href="https://github.com/dev-miriambatista">  <img class="logo" src="imagens/logo.png" alt=""></a>
+        <h1 id="titulo_pagina">Encriptador de texto</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="control">
+                <h1 class="titulo">Insira o texto aqui:</h1>
+                <form id="form">
+                    <label for="input-texto"></label>
+                    <textarea class="text-input-control" type="text" name="input-texto" id="input-texto" placeholder="Apenas letras minúsculas, sem acento"></textarea>
+                    <div class="btns">
+                        <input class="btn-duo" type="button" value="criptografar" id="btn-cripto">
+                        <input class="btn-duo" type="button" value="descriptografar" id="btn-descripto">
+                    </div>
+                </form>
+            </section>
+
+            <div class="box">
+                <h1 class="titulo">Mensagem criptografada:</h1>
+                <section class="msg-box">
+                    <textarea class="text-input" type="text" id="msg" readonly></textarea>
+                    <div class="btns">
+                    <input class="btn-duo" type="button" value="copiar" id="btn-copy">
+                    <input class="btn-duo" type="button" value="limpar" id="btn-clear">
+                </div>
+            </section>           
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <span>criação de Miriam Batista</span>
+    </footer>
+</body>
+</html>

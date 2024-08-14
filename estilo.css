@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+--cor-fundo: #444444;
+--cor-principal: #2aebd1;
+--cor-secundaria: #e65c96;
+--cor-terciaria: #e3aaf5;
+--cor-texto: antiquewhite;
+--cor-borda: #ffffffcf;
+--cor-botao: #6ef07f33;
+--cor-botao-hover: #6ef07f66;
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 1em;
+}
+
+
+html, body {
+display: flex;
+flex-direction: column;
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: var(--cor-fundo);
+color:var(--cor-texto);
+}
+
+
+header {
+display: flex;
+justify-content: space-around;
+font: normal bolder 2em "Roboto Mono";
+color: var(--cor-fundo);
+align-items: center;
+margin: 0;
+width: 95vw;
+height: 8vh;
+margin: 1%;
+border-radius: 0.5em;
+background-color:var(--cor-principal);
+}
+
+.logo {
+display: flex;
+align-items: start;
+margin: 14%;
+}
+
+
+img {
+width: 4vw; 
+}
+
+.container {
+display: flex;
+justify-content: space-evenly;
+width: 95vw;
+height: auto;
+background-image: linear-gradient(to bottom right, var(--cor-principal), var(--cor-secundaria), var(--cor-terciaria));
+border-radius: 1em;
+}
+
+.titulo {
+font: normal bolder 1.5em "Roboto Mono";
+color: var(--cor-fundo);
+margin: 1%;
+text-align: center;
+}
+
+
+.control,.msg-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 40vw;
+border-radius: 8px;
+}
+
+.msg-crip {
+margin-bottom: 1rem;
+}
+
+
+.text-input-control,.text-input {
+display: block;
+align-items: center;
+font: normal bolder 1em "Roboto Mono";
+color:var(--cor-texto);
+width: 40vw;
+height: 60vh;
+margin: 0;
+justify-content: center;
+word-break: break-all;
+background: var(--cor-fundo);
+border-radius: 16px;
+box-shadow: 0 4px 30px var(--cor-fundo);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid var(--cor-fundo);
+}
+.btns {
+display: flex;
+align-items: center; 
+justify-content: center;
+
+align-items: baseline; 
+gap: 1rem; 
+margin: 2%;
+}
+.btn-duo {
+
+display: flex; /* Ativa o flexbox */
+align-items: center; /* Alinha o texto verticalmente no centro */
+justify-content: center; /* Alinha o texto horizontalmente no centro */
+border-radius: 0.7em;
+font: normal bolder 1.2em "Roboto Mono";
+color: var(--cor-fundo);
+height: 7vh;
+padding: 0 1em; /* Adiciona preenchimento lateral */
+cursor: pointer;
+background: var(--cor-principal);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.8px);
+-webkit-backdrop-filter: blur(8.8px);
+border: 1px solid var(--cor-botao);
+
+
+}
+
+value{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+input[type="submit"] {
+border: none;
+cursor: pointer;
+}
+
+textarea{
+text-align: center;
+}
+
+footer{
+font: normal bolder 1em "Roboto Mono";
+}
+
