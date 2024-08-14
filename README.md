@@ -1,5 +1,8 @@
+# Encriptador de Texto 🔒
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/dev-miriambatista/challenge-decodificador)
 ![GitHub contributors](https://img.shields.io/github/contributors/dev-miriambatista/challenge-decodificador)
+![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-blue)
 
 ## Tabela de Conteúdos
 1. [Introdução](#introducao)
@@ -36,19 +39,3 @@ O usuário insere o texto encriptado no campo "Insira o texto aqui". Ao clicar n
 O usuário clica no botão "Copiar" para copiar o texto encriptado para a área de transferência.
 
 ### Limpar Texto:
-O usuário clica no botão "Limpar" para limpar o campo "Mensagem criptografada".
-
-## Como Usar
-1. Clone ou faça o download deste repositório.
-2. Abra o arquivo index.html em um navegador web.
-3. Use os campos e botões disponíveis para encriptar e desencriptar textos conforme necessário.
-
-## Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um "issue" ou enviar um "pull request" com melhorias e novas funcionalidades.
-
-## Licença
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
-
-## Autor
-Criado por Miriam Batista
-
