@@ -29,7 +29,6 @@ cd challenge-decodificador
 - Encriptar Texto
 - Desencriptar Texto
 - Copiar Texto
-- Colar Texto
 - Limpar Texto
 
 ## 🛠️ Tecnologias Utilizadas
