@@ -97,6 +97,4 @@ Licença
 
 Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
 
-Autor
-
 Criado por Miriam Batista
