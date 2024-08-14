@@ -105,25 +105,25 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid var(--cor-fundo);
 }
+
 .btns {
 display: flex;
 align-items: center; 
 justify-content: center;
-
 align-items: baseline; 
 gap: 1rem; 
 margin: 2%;
 }
-.btn-duo {
 
-display: flex; /* Ativa o flexbox */
-align-items: center; /* Alinha o texto verticalmente no centro */
-justify-content: center; /* Alinha o texto horizontalmente no centro */
+.btn-duo {
+display: flex;
+align-items: center;
+justify-content: center; 
 border-radius: 0.7em;
 font: normal bolder 1.2em "Roboto Mono";
 color: var(--cor-fundo);
 height: 7vh;
-padding: 0 1em; /* Adiciona preenchimento lateral */
+padding: 0 1em;
 cursor: pointer;
 background: var(--cor-principal);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

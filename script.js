@@ -40,9 +40,9 @@ document.getElementById('btn-cripto').addEventListener('click', () => {
 });
 
 document.getElementById('btn-descripto').addEventListener('click', () => {
-    let inputTexto = document.getElementById('input-texto').value;
-    let textoDescriptografado = descriptografarTexto(inputTexto);
-    document.getElementById('input-texto').value = textoDescriptografado;
+    let msgTextarea = document.getElementById('msg').value; 
+    let textoDescriptografado = descriptografarTexto(msgTextarea); 
+    document.getElementById('msg').value = textoDescriptografado;
 });
 
 document.getElementById('btn-copy').addEventListener('click', function() {
@@ -53,7 +53,14 @@ document.getElementById('btn-copy').addEventListener('click', function() {
         console.error('Erro ao copiar o texto: ', err);
     });
 });
-document.getElementById('btn-clear').addEventListener('click', () => {
-    document.getElementById('input-texto').value = ''; // Limpa o campo de entrada
-    document.getElementById('msg').value = '';
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('btn-clear-1').addEventListener('click', function() {
+        console.log('Botão limpar 1 clicado');
+        document.getElementById('input-texto').value = ''; 
+    });
+
+    document.getElementById('btn-clear-2').addEventListener('click', function() {
+        console.log('Botão limpar 2 clicado');
+        document.getElementById('msg').value = ''; 
+    });
 });
