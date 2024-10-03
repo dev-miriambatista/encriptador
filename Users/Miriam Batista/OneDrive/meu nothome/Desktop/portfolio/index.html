@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="icon" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio</title>
+</head>
+<header class="container_cabecalho">
+    <h1 class="titulo__cabecalho">Portfólio</h1>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+    <div id="menu">
+    <nav>
+        <ul class="lista_cabecalho">
+            <li class="nav_item"><a class="link_nav" href="index.html">HOME</a></li>
+            <li class="nav_item"><a class="link_nav" href="quem.html">SOBRE MIM</a></li>
+            <li class="nav_item"><a class="link_nav" href="projetos.html">PROJETOS</a></li>
+            <li class="nav_item"><a class="link_nav" href="#">CONTATO</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+<div class="container__apresentacao">
+    <figure class="container">
+        <picture>
+            <img class="post-it" src="image/Post-it-1.png" alt="post-it">
+        </picture>
+        <figcaption>
+            <pre class="texto__apresentacao">
+                Sou Miriam Batista, 
+                desenvolvedora focada em
+                criar soluções digitais 
+                práticas e funcionais.
+                Aqui você encontrará uma 
+                seleção dos meus
+                projetos e habilidades.
+            </pre>
+        </figcaption>
+    </figure>
+    
+    <picture class="perfil">
+        <source media="(max-width: 768px)" src="">
+        <img class="foto-miriam" src="image/miriam.png" alt="foto-miriam">
+    </picture>
+        <script>
+            const icons = document.getElementById('icons');
+            const burguer = document.getElementById('burguer');
+        
+            function mudouTamanho() {
+                if (window.innerWidth >= 768) {
+                    menu.style.display = 'block';  // Mostra os ícones no desktop
+                } else {
+                    menu.style.display = 'none';   // Oculta os ícones em telas pequenas
+                }
+            }
+        
+            function clickMenu() {
+                // Obtém o valor real da propriedade display usando getComputedStyle
+                const displayStyle = window.getComputedStyle(menu).display;
+                
+                if (displayStyle === 'block') {
+                    menu.style.display = 'none'; // Oculta o menu ao clicar se estiver visível
+                } else {
+                    menu.style.display = 'block'; // Exibe o menu ao clicar se estiver oculto
+                }
+            }
+        
+            window.onload = () => {
+                mudouTamanho(); // Chama a função quando a página carrega para ajustar a visibilidade
+            };
+        
+            window.onresize = () => {
+                mudouTamanho(); // Chama a função sempre que a janela for redimensionada
+            };
+        </script>
+        
+        
+</body>
+
+
+</html>
